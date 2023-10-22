@@ -3,7 +3,7 @@
 ## Title: FrameColor_Skin_Dominos
 ## Author: Slothpala
 ## Dependencies: Dominos, FrameColor
-## X-Curse-Project-ID:
+## X-Curse-Project-ID: 926207
 
 FrameColor_Skin_Dominos.lua
 
