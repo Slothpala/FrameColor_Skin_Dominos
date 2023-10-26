@@ -39,5 +39,13 @@ function module:Recolor(main_color, desaturation)
             DominosStanceButton:SetVertexColor(main_color.r,main_color.g,main_color.b,main_color.a)
         end
     end
+    --pet bar
+    for i=1, 10 do
+        local DominosPetActionButton = _G["DominosPetActionButton"..i.."NormalTexture"] 
+        if DominosPetActionButton then
+            DominosPetActionButton:SetDesaturation(desaturation)
+            DominosPetActionButton:SetVertexColor(main_color.r,main_color.g,main_color.b,main_color.a)
+        end
+    end
 end
 
