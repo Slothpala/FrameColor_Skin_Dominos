@@ -1,3 +1,9 @@
  
 package-as: FrameColor_Skin_Dominos
 
+manual-changelog:
+    filename: CHANGELOG.md
+    markup-type: markdown
+
+ignore:
+    - CHANGELOG.md
